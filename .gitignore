@@ -71,3 +71,6 @@ htmlcov/
 # ===== Misc =====
 *.tmp
 *.bak
+
+# ===== Data =====
+/data/
