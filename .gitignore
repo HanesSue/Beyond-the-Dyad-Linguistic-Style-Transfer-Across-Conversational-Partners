@@ -1,0 +1,73 @@
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ===== Windows / Linux =====
+Thumbs.db
+Desktop.ini
+*~
+
+# ===== Editors / IDEs =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# ===== LaTeX build artifacts =====
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+*.xdv
+_minted*/
+# Compiled proposal.pdf is regenerated from proposal.tex
+# (the named submission PDF is kept on purpose)
+proposal/proposal.pdf
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ===== R =====
+.Rhistory
+.RData
+.Rproj.user/
+.Rapp.history
+*_cache/
+*_files/
+
+# ===== Misc =====
+*.tmp
+*.bak
