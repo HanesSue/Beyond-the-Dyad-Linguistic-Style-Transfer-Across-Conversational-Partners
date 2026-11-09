@@ -1,0 +1,1224 @@
+{
+  "date": "2026-11-09",
+  "files": [
+    {
+      "split": "train",
+      "bytes": 2472563,
+      "sha256": "833d8ef26561bbd1921e9f5e730b2ebea0a59cec24f7082bfdcacb8b6cf30792",
+      "rows": 189,
+      "games": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "messages": 13132,
+      "empty_rows": 5
+    },
+    {
+      "split": "validation",
+      "bytes": 245870,
+      "sha256": "6b2ca19991c7596693ea61b34b1be2d6ada3fcf6710472edd4afed841556e571",
+      "rows": 21,
+      "games": [
+        11
+      ],
+      "messages": 1416,
+      "empty_rows": 1
+    },
+    {
+      "split": "test",
+      "bytes": 490273,
+      "sha256": "2061ee7f040d6d8016760cb146d7821fef57cfbb4ced868f233e63854257c050",
+      "rows": 42,
+      "games": [
+        4,
+        12
+      ],
+      "messages": 2741,
+      "empty_rows": 0
+    }
+  ],
+  "games": [
+    {
+      "game_id": 1,
+      "split": "train",
+      "messages": 2618,
+      "speakers": 7,
+      "nonempty_pairs": 20,
+      "year_start": 1901,
+      "year_end": 1910,
+      "median_words": 21.0
+    },
+    {
+      "game_id": 2,
+      "split": "train",
+      "messages": 3302,
+      "speakers": 7,
+      "nonempty_pairs": 21,
+      "year_start": 1901,
+      "year_end": 1910,
+      "median_words": 9.0
+    },
+    {
+      "game_id": 3,
+      "split": "train",
+      "messages": 1914,
+      "speakers": 7,
+      "nonempty_pairs": 20,
+      "year_start": 1901,
+      "year_end": 1910,
+      "median_words": 14.0
+    },
+    {
+      "game_id": 4,
+      "split": "test",
+      "messages": 1546,
+      "speakers": 7,
+      "nonempty_pairs": 21,
+      "year_start": 1901,
+      "year_end": 1907,
+      "median_words": 16.0
+    },
+    {
+      "game_id": 5,
+      "split": "train",
+      "messages": 427,
+      "speakers": 7,
+      "nonempty_pairs": 21,
+      "year_start": 1901,
+      "year_end": 1910,
+      "median_words": 12.0
+    },
+    {
+      "game_id": 6,
+      "split": "train",
+      "messages": 521,
+      "speakers": 6,
+      "nonempty_pairs": 19,
+      "year_start": 1901,
+      "year_end": 1910,
+      "median_words": 20.0
+    },
+    {
+      "game_id": 7,
+      "split": "train",
+      "messages": 1003,
+      "speakers": 7,
+      "nonempty_pairs": 21,
+      "year_start": 1901,
+      "year_end": 1910,
+      "median_words": 14.0
+    },
+    {
+      "game_id": 8,
+      "split": "train",
+      "messages": 905,
+      "speakers": 7,
+      "nonempty_pairs": 21,
+      "year_start": 1901,
+      "year_end": 1910,
+      "median_words": 12.0
+    },
+    {
+      "game_id": 9,
+      "split": "train",
+      "messages": 1611,
+      "speakers": 7,
+      "nonempty_pairs": 21,
+      "year_start": 1901,
+      "year_end": 1907,
+      "median_words": 15.0
+    },
+    {
+      "game_id": 10,
+      "split": "train",
+      "messages": 831,
+      "speakers": 7,
+      "nonempty_pairs": 20,
+      "year_start": 1901,
+      "year_end": 1910,
+      "median_words": 21.0
+    },
+    {
+      "game_id": 11,
+      "split": "validation",
+      "messages": 1416,
+      "speakers": 7,
+      "nonempty_pairs": 20,
+      "year_start": 1901,
+      "year_end": 1910,
+      "median_words": 14.0
+    },
+    {
+      "game_id": 12,
+      "split": "test",
+      "messages": 1195,
+      "speakers": 7,
+      "nonempty_pairs": 21,
+      "year_start": 1901,
+      "year_end": 1910,
+      "median_words": 12.0
+    }
+  ],
+  "split_profiles": [
+    {
+      "split": "train",
+      "messages": 13132,
+      "median_words": 14.0,
+      "sender_lie_rate": 0.045004568991775816,
+      "receiver_missing_rate": 0.08429789826378313,
+      "marker_rates": {
+        "contraction": 0.5057873895826988,
+        "hedge": 0.12199208041425526,
+        "question_mark": 0.25205604629911665
+      }
+    },
+    {
+      "split": "test",
+      "messages": 2741,
+      "median_words": 14.0,
+      "sender_lie_rate": 0.08755928493250638,
+      "receiver_missing_rate": 0.09704487413352791,
+      "marker_rates": {
+        "contraction": 0.43560744253921924,
+        "hedge": 0.141554177307552,
+        "question_mark": 0.2353155782561109
+      }
+    },
+    {
+      "split": "validation",
+      "messages": 1416,
+      "median_words": 14.0,
+      "sender_lie_rate": 0.03954802259887006,
+      "receiver_missing_rate": 0.09392655367231638,
+      "marker_rates": {
+        "contraction": 0.4759887005649718,
+        "hedge": 0.11087570621468927,
+        "question_mark": 0.20268361581920905
+      }
+    }
+  ],
+  "examples": [
+    {
+      "game_id": 1,
+      "abs_index": 168,
+      "speaker": "england",
+      "receiver": "france",
+      "text": "My read: Germany gets a pretty good start, facing only a bit of aggression from you.. Austria and Turkey are likely agreed to stand strong against Russia. However, I think there's a chance that Turkey is sort of overselling their \"opposition\" to Russia moving to Arm. There may be a juggernaut alliance in the works. Probably no real conflict between Austria and Italy. Maybe they'll bounce in Trieste. Austria has a pretty good start if he can secure Greece.",
+      "years": "1901",
+      "seasons": "Fall",
+      "sender_labels": true,
+      "receiver_labels": true
+    },
+    {
+      "game_id": 1,
+      "abs_index": 268,
+      "speaker": "france",
+      "receiver": "england",
+      "text": "If Germany builds Fleet Kiel, we can support a convoy into Holland. But I think he'll be building armies- that's just intuition, I haven't been able to reach Germany and he's hard to talk to.",
+      "years": "1901",
+      "seasons": "Winter",
+      "sender_labels": false,
+      "receiver_labels": false
+    },
+    {
+      "game_id": 1,
+      "abs_index": 274,
+      "speaker": "england",
+      "receiver": "france",
+      "text": "Ok I think that's all of my messages for now.",
+      "years": "1901",
+      "seasons": "Winter",
+      "sender_labels": true,
+      "receiver_labels": true
+    },
+    {
+      "game_id": 1,
+      "abs_index": 275,
+      "speaker": "england",
+      "receiver": "russia",
+      "text": "Hi, sorry to see the trouble with Turkey. Let's have a chat about St. Petersburg and Denmark.",
+      "years": "1901",
+      "seasons": "Winter",
+      "sender_labels": true,
+      "receiver_labels": true
+    },
+    {
+      "game_id": 1,
+      "abs_index": 279,
+      "speaker": "germany",
+      "receiver": "england",
+      "text": "Preferred to see France there.",
+      "years": "1901",
+      "seasons": "Winter",
+      "sender_labels": true,
+      "receiver_labels": true
+    },
+    {
+      "game_id": 1,
+      "abs_index": 281,
+      "speaker": "england",
+      "receiver": "germany",
+      "text": "I can understand why you might have made that move, but I think it’s actually bad for both of us. Even if you and France team up to knock me out, france will get the better part of that deal and will then work with Russia to take you down.",
+      "years": "1901",
+      "seasons": "Winter",
+      "sender_labels": true,
+      "receiver_labels": true
+    }
+  ],
+  "types": {
+    "messages": {
+      "str": 17289
+    },
+    "sender_labels": {
+      "bool": 17289
+    },
+    "receiver_labels": {
+      "bool": 15783,
+      "str": 1506
+    },
+    "speakers": {
+      "str": 17289
+    },
+    "receivers": {
+      "str": 17289
+    },
+    "absolute_message_index": {
+      "int": 17289
+    },
+    "relative_message_index": {
+      "int": 17289
+    },
+    "seasons": {
+      "str": 17289
+    },
+    "years": {
+      "str": 17289
+    },
+    "game_score": {
+      "str": 17270,
+      "int": 19
+    },
+    "game_score_delta": {
+      "str": 17279,
+      "int": 10
+    }
+  },
+  "integrity": {
+    "aligned_arrays": true,
+    "dialogue_relative_indices_contiguous": true,
+    "dialogue_absolute_indices_sorted": true,
+    "dialogue_players_consistent": true,
+    "game_absolute_indices_contiguous": true,
+    "duplicate_message_ids": 0,
+    "duplicate_pair_rows": 0,
+    "self_messages": 0,
+    "blank_messages": 0,
+    "null_cells": 0,
+    "repeated_text_same_directed_pair": 74,
+    "score_phase_constant": true,
+    "score_delta_checked": 16958,
+    "score_delta_mismatches": 0
+  },
+  "players": {
+    "roles": 84,
+    "active_speakers": 83,
+    "sent_all": {
+      "n": 84,
+      "mean": 205.82142857142858,
+      "quantiles": {
+        "0.0": 0.0,
+        "0.05": 25.15,
+        "0.25": 64.75,
+        "0.5": 128.5,
+        "0.75": 296.75,
+        "0.95": 672.9499999999996,
+        "1.0": 945.0
+      }
+    },
+    "sent_active": {
+      "n": 83,
+      "mean": 208.3012048192771,
+      "quantiles": {
+        "0.0": 14.0,
+        "0.05": 26.1,
+        "0.25": 66.0,
+        "0.5": 130.0,
+        "0.75": 299.5,
+        "0.95": 676.2999999999994,
+        "1.0": 945.0
+      }
+    },
+    "received": {
+      "n": 84,
+      "mean": 205.82142857142858,
+      "quantiles": {
+        "0.0": 13.0,
+        "0.05": 31.15,
+        "0.25": 83.0,
+        "0.5": 145.5,
+        "0.75": 257.75,
+        "0.95": 662.1999999999991,
+        "1.0": 863.0
+      }
+    },
+    "receiver_count_histogram": {
+      "0": 1,
+      "3": 1,
+      "5": 11,
+      "6": 71
+    },
+    "all_role_rows": [
+      {
+        "game_id": 1,
+        "country": "austria",
+        "sent": 148,
+        "received": 194
+      },
+      {
+        "game_id": 1,
+        "country": "england",
+        "sent": 743,
+        "received": 698
+      },
+      {
+        "game_id": 1,
+        "country": "france",
+        "sent": 313,
+        "received": 263
+      },
+      {
+        "game_id": 1,
+        "country": "germany",
+        "sent": 548,
+        "received": 729
+      },
+      {
+        "game_id": 1,
+        "country": "italy",
+        "sent": 683,
+        "received": 533
+      },
+      {
+        "game_id": 1,
+        "country": "russia",
+        "sent": 156,
+        "received": 170
+      },
+      {
+        "game_id": 1,
+        "country": "turkey",
+        "sent": 27,
+        "received": 31
+      },
+      {
+        "game_id": 2,
+        "country": "austria",
+        "sent": 792,
+        "received": 685
+      },
+      {
+        "game_id": 2,
+        "country": "england",
+        "sent": 350,
+        "received": 517
+      },
+      {
+        "game_id": 2,
+        "country": "france",
+        "sent": 39,
+        "received": 65
+      },
+      {
+        "game_id": 2,
+        "country": "germany",
+        "sent": 945,
+        "received": 863
+      },
+      {
+        "game_id": 2,
+        "country": "italy",
+        "sent": 764,
+        "received": 711
+      },
+      {
+        "game_id": 2,
+        "country": "russia",
+        "sent": 58,
+        "received": 97
+      },
+      {
+        "game_id": 2,
+        "country": "turkey",
+        "sent": 354,
+        "received": 364
+      },
+      {
+        "game_id": 3,
+        "country": "austria",
+        "sent": 218,
+        "received": 232
+      },
+      {
+        "game_id": 3,
+        "country": "england",
+        "sent": 616,
+        "received": 385
+      },
+      {
+        "game_id": 3,
+        "country": "france",
+        "sent": 96,
+        "received": 138
+      },
+      {
+        "game_id": 3,
+        "country": "germany",
+        "sent": 381,
+        "received": 448
+      },
+      {
+        "game_id": 3,
+        "country": "italy",
+        "sent": 345,
+        "received": 388
+      },
+      {
+        "game_id": 3,
+        "country": "russia",
+        "sent": 90,
+        "received": 129
+      },
+      {
+        "game_id": 3,
+        "country": "turkey",
+        "sent": 168,
+        "received": 194
+      },
+      {
+        "game_id": 4,
+        "country": "austria",
+        "sent": 81,
+        "received": 167
+      },
+      {
+        "game_id": 4,
+        "country": "england",
+        "sent": 215,
+        "received": 256
+      },
+      {
+        "game_id": 4,
+        "country": "france",
+        "sent": 540,
+        "received": 375
+      },
+      {
+        "game_id": 4,
+        "country": "germany",
+        "sent": 108,
+        "received": 117
+      },
+      {
+        "game_id": 4,
+        "country": "italy",
+        "sent": 49,
+        "received": 94
+      },
+      {
+        "game_id": 4,
+        "country": "russia",
+        "sent": 423,
+        "received": 324
+      },
+      {
+        "game_id": 4,
+        "country": "turkey",
+        "sent": 130,
+        "received": 213
+      },
+      {
+        "game_id": 5,
+        "country": "austria",
+        "sent": 36,
+        "received": 36
+      },
+      {
+        "game_id": 5,
+        "country": "england",
+        "sent": 130,
+        "received": 102
+      },
+      {
+        "game_id": 5,
+        "country": "france",
+        "sent": 63,
+        "received": 84
+      },
+      {
+        "game_id": 5,
+        "country": "germany",
+        "sent": 20,
+        "received": 27
+      },
+      {
+        "game_id": 5,
+        "country": "italy",
+        "sent": 27,
+        "received": 44
+      },
+      {
+        "game_id": 5,
+        "country": "russia",
+        "sent": 47,
+        "received": 69
+      },
+      {
+        "game_id": 5,
+        "country": "turkey",
+        "sent": 104,
+        "received": 65
+      },
+      {
+        "game_id": 6,
+        "country": "austria",
+        "sent": 17,
+        "received": 27
+      },
+      {
+        "game_id": 6,
+        "country": "england",
+        "sent": 64,
+        "received": 106
+      },
+      {
+        "game_id": 6,
+        "country": "france",
+        "sent": 168,
+        "received": 109
+      },
+      {
+        "game_id": 6,
+        "country": "germany",
+        "sent": 172,
+        "received": 142
+      },
+      {
+        "game_id": 6,
+        "country": "italy",
+        "sent": 0,
+        "received": 13
+      },
+      {
+        "game_id": 6,
+        "country": "russia",
+        "sent": 33,
+        "received": 53
+      },
+      {
+        "game_id": 6,
+        "country": "turkey",
+        "sent": 67,
+        "received": 71
+      },
+      {
+        "game_id": 7,
+        "country": "austria",
+        "sent": 180,
+        "received": 223
+      },
+      {
+        "game_id": 7,
+        "country": "england",
+        "sent": 99,
+        "received": 119
+      },
+      {
+        "game_id": 7,
+        "country": "france",
+        "sent": 113,
+        "received": 110
+      },
+      {
+        "game_id": 7,
+        "country": "germany",
+        "sent": 150,
+        "received": 177
+      },
+      {
+        "game_id": 7,
+        "country": "italy",
+        "sent": 121,
+        "received": 133
+      },
+      {
+        "game_id": 7,
+        "country": "russia",
+        "sent": 275,
+        "received": 163
+      },
+      {
+        "game_id": 7,
+        "country": "turkey",
+        "sent": 65,
+        "received": 78
+      },
+      {
+        "game_id": 8,
+        "country": "austria",
+        "sent": 122,
+        "received": 125
+      },
+      {
+        "game_id": 8,
+        "country": "england",
+        "sent": 27,
+        "received": 48
+      },
+      {
+        "game_id": 8,
+        "country": "france",
+        "sent": 141,
+        "received": 163
+      },
+      {
+        "game_id": 8,
+        "country": "germany",
+        "sent": 67,
+        "received": 101
+      },
+      {
+        "game_id": 8,
+        "country": "italy",
+        "sent": 109,
+        "received": 109
+      },
+      {
+        "game_id": 8,
+        "country": "russia",
+        "sent": 122,
+        "received": 148
+      },
+      {
+        "game_id": 8,
+        "country": "turkey",
+        "sent": 317,
+        "received": 211
+      },
+      {
+        "game_id": 9,
+        "country": "austria",
+        "sent": 78,
+        "received": 80
+      },
+      {
+        "game_id": 9,
+        "country": "england",
+        "sent": 127,
+        "received": 151
+      },
+      {
+        "game_id": 9,
+        "country": "france",
+        "sent": 294,
+        "received": 225
+      },
+      {
+        "game_id": 9,
+        "country": "germany",
+        "sent": 214,
+        "received": 190
+      },
+      {
+        "game_id": 9,
+        "country": "italy",
+        "sent": 361,
+        "received": 342
+      },
+      {
+        "game_id": 9,
+        "country": "russia",
+        "sent": 428,
+        "received": 517
+      },
+      {
+        "game_id": 9,
+        "country": "turkey",
+        "sent": 109,
+        "received": 106
+      },
+      {
+        "game_id": 10,
+        "country": "austria",
+        "sent": 236,
+        "received": 156
+      },
+      {
+        "game_id": 10,
+        "country": "england",
+        "sent": 148,
+        "received": 143
+      },
+      {
+        "game_id": 10,
+        "country": "france",
+        "sent": 52,
+        "received": 63
+      },
+      {
+        "game_id": 10,
+        "country": "germany",
+        "sent": 190,
+        "received": 174
+      },
+      {
+        "game_id": 10,
+        "country": "italy",
+        "sent": 83,
+        "received": 103
+      },
+      {
+        "game_id": 10,
+        "country": "russia",
+        "sent": 108,
+        "received": 173
+      },
+      {
+        "game_id": 10,
+        "country": "turkey",
+        "sent": 14,
+        "received": 19
+      },
+      {
+        "game_id": 11,
+        "country": "austria",
+        "sent": 341,
+        "received": 409
+      },
+      {
+        "game_id": 11,
+        "country": "england",
+        "sent": 47,
+        "received": 71
+      },
+      {
+        "game_id": 11,
+        "country": "france",
+        "sent": 124,
+        "received": 127
+      },
+      {
+        "game_id": 11,
+        "country": "germany",
+        "sent": 305,
+        "received": 336
+      },
+      {
+        "game_id": 11,
+        "country": "italy",
+        "sent": 292,
+        "received": 155
+      },
+      {
+        "game_id": 11,
+        "country": "russia",
+        "sent": 42,
+        "received": 69
+      },
+      {
+        "game_id": 11,
+        "country": "turkey",
+        "sent": 265,
+        "received": 249
+      },
+      {
+        "game_id": 12,
+        "country": "austria",
+        "sent": 26,
+        "received": 37
+      },
+      {
+        "game_id": 12,
+        "country": "england",
+        "sent": 92,
+        "received": 109
+      },
+      {
+        "game_id": 12,
+        "country": "france",
+        "sent": 264,
+        "received": 315
+      },
+      {
+        "game_id": 12,
+        "country": "germany",
+        "sent": 25,
+        "received": 32
+      },
+      {
+        "game_id": 12,
+        "country": "italy",
+        "sent": 48,
+        "received": 59
+      },
+      {
+        "game_id": 12,
+        "country": "russia",
+        "sent": 429,
+        "received": 298
+      },
+      {
+        "game_id": 12,
+        "country": "turkey",
+        "sent": 311,
+        "received": 345
+      }
+    ]
+  },
+  "text": {
+    "words": {
+      "n": 17289,
+      "mean": 20.3536352594135,
+      "quantiles": {
+        "0.0": 1.0,
+        "0.05": 2.0,
+        "0.25": 7.0,
+        "0.5": 14.0,
+        "0.75": 26.0,
+        "0.95": 60.0,
+        "1.0": 294.0
+      }
+    },
+    "characters": {
+      "n": 17289,
+      "mean": 105.0762334432298,
+      "quantiles": {
+        "0.0": 1.0,
+        "0.05": 10.0,
+        "0.25": 35.0,
+        "0.5": 71.0,
+        "0.75": 135.0,
+        "0.95": 309.0,
+        "1.0": 1556.0
+      }
+    },
+    "total_whitespace_tokens": 351894,
+    "messages_le7_words": 4703,
+    "messages_le20_words": 11411,
+    "country_mentions": 6494,
+    "order_notation": 755
+  },
+  "pairs": {
+    "all": {
+      "n": 252,
+      "mean": 68.60714285714286,
+      "quantiles": {
+        "0.0": 0.0,
+        "0.05": 2.0,
+        "0.25": 11.0,
+        "0.5": 29.0,
+        "0.75": 84.5,
+        "0.95": 283.0,
+        "1.0": 675.0
+      }
+    },
+    "nonempty": {
+      "n": 246,
+      "mean": 70.28048780487805,
+      "quantiles": {
+        "0.0": 1.0,
+        "0.05": 3.0,
+        "0.25": 11.0,
+        "0.5": 30.5,
+        "0.75": 86.75,
+        "0.95": 283.0,
+        "1.0": 675.0
+      }
+    },
+    "directed_nonempty": 484
+  },
+  "labels": {
+    "sender": {
+      "True": 16402,
+      "False": 887
+    },
+    "receiver": {
+      "True": 15005,
+      "NOANNOTATION": 1506,
+      "False": 778
+    },
+    "matrix": [
+      {
+        "sender_truthful": true,
+        "receiver_label": true,
+        "count": 14314
+      },
+      {
+        "sender_truthful": true,
+        "receiver_label": false,
+        "count": 667
+      },
+      {
+        "sender_truthful": true,
+        "receiver_label": "NOANNOTATION",
+        "count": 1421
+      },
+      {
+        "sender_truthful": false,
+        "receiver_label": true,
+        "count": 691
+      },
+      {
+        "sender_truthful": false,
+        "receiver_label": false,
+        "count": 111
+      },
+      {
+        "sender_truthful": false,
+        "receiver_label": "NOANNOTATION",
+        "count": 85
+      }
+    ],
+    "receiver_annotated": 15783,
+    "agreement_annotated": 14425
+  },
+  "phases": {
+    "years": {
+      "1901": 4083,
+      "1902": 3839,
+      "1903": 2076,
+      "1904": 1666,
+      "1905": 1782,
+      "1906": 1215,
+      "1907": 1429,
+      "1908": 597,
+      "1909": 392,
+      "1910": 210
+    },
+    "seasons": {
+      "Spring": 7540,
+      "Fall": 7532,
+      "Winter": 2217
+    },
+    "score_range": [
+      0,
+      17
+    ],
+    "score_delta_range": [
+      -14,
+      15
+    ]
+  },
+  "exposure": {
+    "n": 17289,
+    "first_to_recipient": 484,
+    "switch_eligible": 17206,
+    "switch_count": 7286,
+    "incoming_available": 17223,
+    "last_incoming_from_recipient": 11457,
+    "heard_two_sources": 17084,
+    "same_and_other_available": 16905,
+    "unseen_control_available": 17227,
+    "warmup_coverage": [
+      {
+        "prior_outgoing_min": 0,
+        "outputs": 16905
+      },
+      {
+        "prior_outgoing_min": 3,
+        "outputs": 16772
+      },
+      {
+        "prior_outgoing_min": 5,
+        "outputs": 16683
+      },
+      {
+        "prior_outgoing_min": 10,
+        "outputs": 16354
+      },
+      {
+        "prior_outgoing_min": 20,
+        "outputs": 15581
+      }
+    ],
+    "later_to_recipient": 16805,
+    "other_since_previous_count": 6328,
+    "other_since_previous": {
+      "n": 16805,
+      "mean": 3.5485867301398395,
+      "quantiles": {
+        "0.0": 0.0,
+        "0.05": 0.0,
+        "0.25": 0.0,
+        "0.5": 0.0,
+        "0.75": 2.0,
+        "0.95": 17.0,
+        "1.0": 508.0
+      }
+    },
+    "same_lag_both": {
+      "n": 16905,
+      "mean": 23.343093759242826,
+      "quantiles": {
+        "0.0": 1.0,
+        "0.05": 1.0,
+        "0.25": 1.0,
+        "0.5": 3.0,
+        "0.75": 14.0,
+        "0.95": 101.0,
+        "1.0": 2474.0
+      }
+    },
+    "other_lag_both": {
+      "n": 16905,
+      "mean": 21.785566400473233,
+      "quantiles": {
+        "0.0": 1.0,
+        "0.05": 1.0,
+        "0.25": 5.0,
+        "0.5": 12.0,
+        "0.75": 26.0,
+        "0.95": 73.79999999999927,
+        "1.0": 703.0
+      }
+    }
+  },
+  "markers": [
+    {
+      "marker": "contraction",
+      "label": "缩略形式 I'm/don't",
+      "count": 8510,
+      "rate": 0.4922204870148649,
+      "players_ge40": 72,
+      "player_p10": 0.33451536643026003,
+      "player_median": 0.48473193473193477,
+      "player_p90": 0.6452823249553977
+    },
+    {
+      "marker": "question_mark",
+      "label": "问号",
+      "count": 4242,
+      "rate": 0.24535832031927815,
+      "players_ge40": 72,
+      "player_p10": 0.1606691253951528,
+      "player_median": 0.2433128797807697,
+      "player_p90": 0.3670529228640609
+    },
+    {
+      "marker": "curly_apostrophe",
+      "label": "弯引号 ’（键盘，对照）",
+      "count": 3179,
+      "rate": 0.18387413962635202,
+      "players_ge40": 72,
+      "player_p10": 0.0,
+      "player_median": 0.0,
+      "player_p90": 0.4704141346753491
+    },
+    {
+      "marker": "we_pronoun",
+      "label": "we/us/our/let's",
+      "count": 3124,
+      "rate": 0.18069292613800683,
+      "players_ge40": 72,
+      "player_p10": 0.10620220900594733,
+      "player_median": 0.17940277957058648,
+      "player_p90": 0.284087656529517
+    },
+    {
+      "marker": "hedge",
+      "label": "模糊语 maybe/perhaps/probably/might/I think",
+      "count": 2147,
+      "rate": 0.12418300653594772,
+      "players_ge40": 72,
+      "player_p10": 0.0609284332688588,
+      "player_median": 0.12549212598425197,
+      "player_p90": 0.19244745832901958
+    },
+    {
+      "marker": "exclamation_mark",
+      "label": "感叹号",
+      "count": 1296,
+      "rate": 0.07496095783446122,
+      "players_ge40": 72,
+      "player_p10": 0.00784900284900285,
+      "player_median": 0.052922628536156216,
+      "player_p90": 0.1744047619047619
+    },
+    {
+      "marker": "emoji",
+      "label": "表情符号",
+      "count": 661,
+      "rate": 0.03823240210538493,
+      "players_ge40": 72,
+      "player_p10": 0.0,
+      "player_median": 0.0294708276797829,
+      "player_p90": 0.1124985466806185
+    },
+    {
+      "marker": "ellipsis",
+      "label": "省略号",
+      "count": 641,
+      "rate": 0.03707559720053213,
+      "players_ge40": 72,
+      "player_p10": 0.0,
+      "player_median": 0.019819466248037675,
+      "player_p90": 0.10701251303441084
+    },
+    {
+      "marker": "laughter",
+      "label": "笑声 lol/haha",
+      "count": 514,
+      "rate": 0.02972988605471687,
+      "players_ge40": 72,
+      "player_p10": 0.0,
+      "player_median": 0.015154994259471873,
+      "player_p90": 0.05452662164707148
+    },
+    {
+      "marker": "all_lowercase",
+      "label": "全小写",
+      "count": 464,
+      "rate": 0.02683787379258488,
+      "players_ge40": 72,
+      "player_p10": 0.0,
+      "player_median": 0.013112688960146588,
+      "player_p90": 0.10924093816631127
+    },
+    {
+      "marker": "modal_request",
+      "label": "情态请求 could/would/can/will you",
+      "count": 426,
+      "rate": 0.024639944473364567,
+      "players_ge40": 72,
+      "player_p10": 0.0,
+      "player_median": 0.023631354591314383,
+      "player_p90": 0.05509090909090908
+    },
+    {
+      "marker": "thanks",
+      "label": "thanks",
+      "count": 316,
+      "rate": 0.018277517496674184,
+      "players_ge40": 72,
+      "player_p10": 0.0,
+      "player_median": 0.014738785706527643,
+      "player_p90": 0.04949727437916414
+    },
+    {
+      "marker": "please",
+      "label": "please",
+      "count": 101,
+      "rate": 0.005841864769506623,
+      "players_ge40": 72,
+      "player_p10": 0.0,
+      "player_median": 0.003113109650639917,
+      "player_p90": 0.015274725274725273
+    }
+  ]
+}
