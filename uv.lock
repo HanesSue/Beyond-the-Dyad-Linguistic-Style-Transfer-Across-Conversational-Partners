@@ -26,7 +26,7 @@ wheels = [
 ]
 
 [[package]]
-name = "beyond-the-dyad-linguistic-style-transfer-across-conversational-partners"
+name = "beyond-the-dyad"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
