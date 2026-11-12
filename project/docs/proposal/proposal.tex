@@ -1,8 +1,12 @@
 \documentclass[sigconf,nonacm]{acmart}
 
+\hypersetup{
+  pdfsubject={Computational Cognitive Modeling final project proposal},
+}
+
 \begin{document}
 
-\title{Language Style and Decision Adaptation: A Model-Based Exploration of Contextual and Speaker-Specific Effects}
+\title{Beyond the Dyad: Linguistic Style Transfer\texorpdfstring{\\}{ }Across Conversational Partners}
 
 % ===== 小组成员：替换为实际姓名，人数不同时增删即可 =====
 % 如需加单位，在每个 \author 后加 \affiliation{\institution{...}\country{...}}（acmart 要求 country 必填）
@@ -11,12 +15,16 @@
 \author{Luis Zhang}
 
 \maketitle
+% 单页文档：在第一栏就调用 \balance，让最后一页两栏底部对齐
+\balance
 
-This project asks whether exposure to a speaker’s language style influences decisions across a conversation or primarily in interactions with that speaker. Motivated by \citet{kronmuller2026adapting}, we consider how their distinction between contextual and speaker-specific adaptation might apply to aspects of language style beyond referential consistency. We are also interested in how these effects develop with experience and whether they persist or change when a previously encountered style is withdrawn and later reintroduced.
+People can pick up ways of speaking from a conversational partner. This project asks whether those habits carry over when they write to someone else. \citet{Kronm_ller_2026} distinguished adaptation to individual speakers from adaptation to the wider conversation in a reference task. In a controlled production task, \citet{Ostrand_2019} found that participants' syntax shifted with the forms they heard across partners. We extend this question to several dimensions of style in naturally interleaved conversations. We predict that after receiving messages from A, a player P will write to B in a style closer to A's, even after accounting for P's earlier usage and the messages B has sent to P.
 
-We plan to use computational modeling and simulation in an adapted referential-choice task. By varying interaction histories while keeping task-relevant information comparable, we will examine changes in decisions involving the speaker whose style is manipulated and other speakers. We will vary when the style appears and its proportion within the preceding context, followed by periods of neutral interaction and renewed exposure. These comparisons may help distinguish patterns associated with the broader conversational context from those associated with individual speakers.
+The public \textit{Diplomacy} corpus \citep{peskov-etal-2020-takes} contains 17,289 private messages from 12 seven-player games. We replay each game in message order, predicting the style of each outgoing message from the sender, recipient, and prior conversation. Once observed, the message becomes part of the recipient's history. To measure style, we mask place names and move orders, then extract a standardized vector of features such as pronoun use, hedges, contractions, and punctuation. Paired rewrites will test whether the vector captures changes in expression when content stays fixed and remains stable when only the content changes \citep{Halvani_2021,wegmann-etal-2022-author}. Our primary analysis considers the whole vector, with individual features examined separately.
 
-Our analysis will focus on the magnitude and persistence of decision changes across these conditions. We hope to assess how alternative accounts of adaptation describe the observed patterns and develop hypotheses about the role of language style in human decision-making. Comparisons with existing behavioral evidence will guide interpretation and inform possible follow-up human experiments.
+A hierarchical Gaussian model tracks what a player learns from incoming messages, drawing on Hawkins et al.'s account of shared and partner-specific expectations and Xu and Futrell's model of how linguistic preferences update with experience \citep{Hawkins_2023,xu2024hierarchicalbayesianmodelsyntactic}. To predict a message, each model blends the player's early writing style with the style estimate it uses for that recipient. A weight fitted to observed messages determines the size of the shift. The no-adaptation baseline fixes that weight at zero. If A's style changes while B's history stays fixed, a partner-specific learner predicts a shift only in messages to A. Full pooling predicts comparable shifts to both partners under matched conditions. Partial pooling allows A's influence to carry over to B, with a smaller shift when P has already received substantial input from B.
+
+In our pilot, stylistic associations were clearer within a partnership, where the input also tended to be more recent. We will compare inputs at similar distances in the message sequence while accounting for game phase, message length, and reply context. Messages unavailable to P provide a negative control for shared circumstances. In simulations, we vary A's input with B's history fixed and redistribute identical inputs across partners to separate exposure from source. On games held out one at a time, higher predictive log scores for models with shared learning and shifts toward A in messages to B would support cross-partner adaptation. The observational results will help identify which predictions to test under controlled exposure.
 
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{references}
